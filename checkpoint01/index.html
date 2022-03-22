@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>nomePagina</title>
+</head>
+
+<body>
+    <header>
+        <h1><a href="http://127.0.0.1:5500/?">nomePagina</a></h1>
+        <section class="sectionTopo">
+            <div class="intro">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+
+            <fieldset class="formBox">
+                <form>
+                    <div class="formInfo">
+                        <input type="text" placeholder="Título" id="tituloForm" required/>
+                        <textarea type="text" placeholder="Descrição" id="descricaoForm" required></textarea>
+                        <input type="text" placeholder="URL da Imagem" id="imagemForm" required/>
+                    </div>
+                    <div class="addBtn"><button type="submit" id="addBtn" required>Postar</button></div>
+                </form>
+            </fieldset>
+        </section>
+    </header>
+
+    <main>
+        <h2>Postagens</h2>
+        <div class="container" id="mainContainer">
+            <div class="item">
+                <h3>Lorem ipsum</h3>
+                <img src="https://www.back40design.com/wp-content/uploads/2020/11/b40-blog-detailView-LorumIpsum-rv2.png">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis ipsum mi, eu imperdiet
+                    libero aliquam nec.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
